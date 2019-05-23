@@ -1,0 +1,13 @@
+<div>
+  <ul>
+    <li *ngFor="let feed of feedList">
+      <div style>
+        <span>{{feed.postedBy}}</span>
+        <span style="float:right">{{feed.postedDateTime}}</span>
+        <small>
+          {{feed.summary}}
+        </small>
+      </div>
+    </li>
+  </ul>
+</div>
