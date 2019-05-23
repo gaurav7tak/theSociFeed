@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class AuthenticationService {
 
-  constructor() { }
+  constructor( ) { }
 
   public validateLogin(username, password) {
     if(username == 'GT' && password == 'gaurav#123') {

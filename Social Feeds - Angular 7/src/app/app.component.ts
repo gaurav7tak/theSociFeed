@@ -10,5 +10,5 @@ export class AppComponent {
   constructor(private authenticationService: AuthenticationService) {
 
   }
-  title = 'MyPortfolio';
+  title = 'Social Feed';
 }
